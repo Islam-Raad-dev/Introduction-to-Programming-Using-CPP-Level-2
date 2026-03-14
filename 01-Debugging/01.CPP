@@ -113,7 +113,7 @@ int main()
     string arr[100];
     int arrLength = 0;
 
-    arrLength = ReadPositiveNumber("Please Enter How Many Key To Generate: ");
+    arrLength = ReadPositiveNumber(" Please Enter How Many Key To Generate: ");
 
     FillArrayWithKey(arr, arrLength);
     PrintStringArray(arr, arrLength);
