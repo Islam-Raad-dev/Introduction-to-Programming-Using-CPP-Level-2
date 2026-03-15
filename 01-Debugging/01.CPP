@@ -17,6 +17,7 @@ int ReadPositiveNumber(string Message)
     return Number;
 }
 
+
 int RandomNumber(int From, int To)
 {
 

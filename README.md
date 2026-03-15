@@ -12,6 +12,9 @@ Advanced C++ Concepts, Control, and Professional Programming Skills. This course
 * **File Handling:** Writing, reading, updating, and deleting records in files.
 * **Core Concepts:** Function overloading, recursion, static variables, and exception handling.
 
+______________________________________
+
+
 ## 🧱 Course Structure
 
 ### 1. Debugging C++ Code
@@ -49,7 +52,4 @@ Advanced C++ Concepts, Control, and Professional Programming Skills. This course
 - Local vs UTC Time
 - Datetime Structures
 
-## 💻 Requirements
-- C++ Compiler (GCC/Clang)
-- Visual Studio Code / GitHub Codespaces
-- Basic knowledge of C++ Level 1 foundations
+______________________________________
