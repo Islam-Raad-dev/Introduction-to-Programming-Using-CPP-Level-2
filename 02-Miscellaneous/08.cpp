@@ -12,5 +12,6 @@ int main(){
     MyIn::ReadNumber("");
 
 
+    return 0;
 
 }
