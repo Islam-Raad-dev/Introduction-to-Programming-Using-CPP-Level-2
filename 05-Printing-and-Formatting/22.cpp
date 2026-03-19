@@ -2,7 +2,7 @@
 
 Printf
 
-int / string Varibales
+int / string Varibales 
 
 */
 
