@@ -20,7 +20,7 @@ int main()
     return 0;
 }
 
-void add(int a, int b) // Function Definition.
+void add(int a, int b) // Function Definition
 {
     cout << (a + b) << endl;
 }
