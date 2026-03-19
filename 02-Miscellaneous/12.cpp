@@ -11,7 +11,7 @@ using namespace std;
 int main()
 {
     cout << "Result: " << (12 && 25);
-    cout << endl;
+    cout << endl ;
 
     return 0;
 }
