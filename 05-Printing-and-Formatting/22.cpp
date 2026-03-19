@@ -2,6 +2,8 @@
 
 Printf
 
+int / string Varibales
+
 */
 
 #include <iostream>
