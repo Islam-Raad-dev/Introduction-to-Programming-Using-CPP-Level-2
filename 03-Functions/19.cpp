@@ -13,31 +13,22 @@ The Problem = Stack OverFlow.
 #include <iostream>
 using namespace std;
 
-void PrintNumbers(int N, int M)
+int PowerNumber(int Base, int Power)
 {
 
-    if (N <= M)
+    if (Power == 0)
     {
-        cout << M << endl;
-        PrintNumbers(N, M - 1);
+        return 1;
     }
-
-    cout<<"\n\n";
-}
-
-void PowerNumber(int K, int Y)
-{
-
-    if (K <= Y)
+    else
     {
-        cout << K << endl;
-        PrintNumbers(K * Y, Y);
+        return (Base * PowerNumber(Base, Power - 1));
     }
 }
 int main()
 {
-    PrintNumbers(1, 10);
-    PowerNumber(2, 100);
+
+    cout << PowerNumber(2, 4) << endl;
 
     return 0;
 }
