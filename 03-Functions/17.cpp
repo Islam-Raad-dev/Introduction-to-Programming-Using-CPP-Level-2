@@ -2,7 +2,7 @@
 
 Functions : 
 
-Call Stack / Call Hierarchy
+Call Stack / Call Hierarchy 
 
 Last Input.
 First Output.
