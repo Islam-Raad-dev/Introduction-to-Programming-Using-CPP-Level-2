@@ -4,7 +4,8 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/usr/local/include/**"
+                "/usr/local/include/**",
+                "/usr/local/include/MyLibs/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/g++",
