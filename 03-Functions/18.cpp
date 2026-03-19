@@ -1,43 +1,36 @@
 /*
 
-Functions :
+Functions Tips :
 
-Functions Recursion: Then The Function Recall Him Self.
-
-The Problem = Stack OverFlow.
-
- لايستحب استخدامها لانها ممكن تضرب البرنامج عند الارقام الكبيرة
 
 */
 
 #include <iostream>
 using namespace std;
 
-void PrintNumbers(int N, int M)
+void Function4()
 {
-
-    if (N <= M)
-    {
-        cout << M << endl;
-        PrintNumbers(N, M - 1);
-    }
-
-    cout<<"\n\n";
+    cout << "Hi, My Name Is Islam Raad." << endl;
 }
 
-void PowerNumber(int K, int Y)
+void Function3()
 {
-
-    if (K <= Y)
-    {
-        cout << K << endl;
-        PrintNumbers(K * Y, Y);
-    }
+    Function4();
 }
+
+void Function2()
+{
+    Function3();
+}
+
+void Function1()
+{
+    Function2();
+}
+
 int main()
 {
-    PrintNumbers(1, 10);
-    PowerNumber(2, 100);
+    Function1();
 
     return 0;
 }
