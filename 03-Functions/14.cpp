@@ -4,7 +4,7 @@ Functions :
 
 Declaration VS Definition.
 
-
+ 
 */
 
 #include <iostream>
