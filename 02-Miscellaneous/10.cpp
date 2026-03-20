@@ -1,5 +1,5 @@
 /*
-
+ 
 Ranged Loops:
 
 for(Range Declation : Range Expression == Collaction Of Item)
