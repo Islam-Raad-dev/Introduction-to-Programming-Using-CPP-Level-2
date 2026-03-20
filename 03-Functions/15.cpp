@@ -2,7 +2,7 @@
 
 Functions :
 
-Default Parameters = Optional Parameters.
+Default Parameters = Optional Parameters. 
 
 Default = بالبرمجة تعني في حالة الفشل
 
