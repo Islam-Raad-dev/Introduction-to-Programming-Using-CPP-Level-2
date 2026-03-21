@@ -2,7 +2,7 @@
 
 BitWise OR : 
 
-
+ 
 */
 
 #include <iostream>
