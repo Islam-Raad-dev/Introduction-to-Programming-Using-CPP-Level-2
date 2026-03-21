@@ -6,7 +6,7 @@ Functions Tips :
 */
 
 #include <iostream>
-using namespace std;
+using namespace std; 
 
 void Function4()
 {
