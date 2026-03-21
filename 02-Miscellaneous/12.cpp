@@ -1,6 +1,6 @@
 /*
 
-BitWise AND :
+BitWise AND : 
  
 
 */
