@@ -1,7 +1,7 @@
 /*
 
 Vector Of Structur:
-
+ 
 */
 
 #include <iostream>
