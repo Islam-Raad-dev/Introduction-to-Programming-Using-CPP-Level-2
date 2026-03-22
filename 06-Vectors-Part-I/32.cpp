@@ -1,6 +1,6 @@
 /*
 
-Vector Fuctions: 
+Vector Fuctions:
 
 */
 
@@ -8,7 +8,8 @@ Vector Fuctions:
 #include <vector>
 using namespace std;
 
-int main(){
+int main()
+{
 
     vector<int> vNumbers;
 
@@ -17,14 +18,16 @@ int main(){
     vNumbers.push_back(30);
     vNumbers.push_back(40);
     vNumbers.push_back(50);
+    
 
-    vNumbers.pop_back();
-    vNumbers.pop_back();
-    vNumbers.pop_back();
-    vNumbers.pop_back();
-    vNumbers.pop_back();
+    cout << "First Element: " << vNumbers.front() << endl;
+    cout << "Last Element : " << vNumbers.back() << endl;
 
+    cout << "Size: " << vNumbers.size() << endl;
+
+    cout << "Capacity: " << vNumbers.capacity() << endl;
+
+    cout << "Empty: " << vNumbers.empty() << endl;
 
     return 0;
-
 }
