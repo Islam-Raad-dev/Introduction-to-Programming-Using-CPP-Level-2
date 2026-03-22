@@ -8,7 +8,7 @@ Vectors Of Structure:
 #include <vector>
 using namespace std;
 
-struct stVector{
+struct stEmployee{
 
     vector <int> Number;
     vector <float> Fraction;
