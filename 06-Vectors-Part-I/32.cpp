@@ -1,7 +1,7 @@
 /*
 
 Vector Fuctions:  
-
+ 
 */
 
 #include <iostream>
