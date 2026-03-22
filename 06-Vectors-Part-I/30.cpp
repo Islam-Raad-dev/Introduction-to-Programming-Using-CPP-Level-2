@@ -1,6 +1,6 @@
 /*
 
-Vectors Of Structure: 
+Vectors Of Structure:  
  
 */
 
