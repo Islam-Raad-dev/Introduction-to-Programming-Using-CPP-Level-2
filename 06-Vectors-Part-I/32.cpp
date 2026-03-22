@@ -1,6 +1,6 @@
 /*
 
-Vector Fuctions:  
+Vector Fuctions: 
  
 */
 
