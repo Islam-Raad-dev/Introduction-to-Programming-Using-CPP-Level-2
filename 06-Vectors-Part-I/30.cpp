@@ -1,5 +1,5 @@
 /*
-  
+
 Vectors Of Structure:  
 
 */
