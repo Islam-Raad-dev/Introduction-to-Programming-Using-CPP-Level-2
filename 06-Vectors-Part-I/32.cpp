@@ -1,6 +1,6 @@
 /*
 
-Vector Fuctions:
+Vector Fuctions: 
 
 */
 
@@ -18,7 +18,7 @@ int main()
     vNumbers.push_back(30);
     vNumbers.push_back(40);
     vNumbers.push_back(50);
-    
+
 
     cout << "First Element: " << vNumbers.front() << endl;
     cout << "Last Element : " << vNumbers.back() << endl;
