@@ -1,6 +1,6 @@
 /*
 
-Stack VS Heap:
+Stack VS Heap: 
 
 
             Heap: Any Dynamic Variables / Object / Arrayes ...etc
@@ -12,7 +12,7 @@ Stack VS Heap:
                                     |   
 
                               Static / Global
-                              
+
                                     |   
 
                        Sourse Code / Instuctions
