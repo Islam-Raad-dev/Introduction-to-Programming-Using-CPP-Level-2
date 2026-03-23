@@ -1,6 +1,6 @@
 /*
 
-Pointer 
+Pointer  
 
 */
 #include<iostream>
