@@ -31,6 +31,8 @@ int main()
         cout << "Student [" << i + 1 << "] : " << *(ptr + i) << endl;
     }
 
+    cout << "\n";
+
     delete[] ptr;
 
     return 0;
