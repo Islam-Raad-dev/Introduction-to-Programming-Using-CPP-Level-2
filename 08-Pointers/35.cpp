@@ -11,11 +11,12 @@ int main()
 
     int a = 10;
 
-    cout << a << endl;
-    cout << &a << endl;
+    cout << "a Value   =  " << a << endl;
+    cout << "a Address =  " << &a << endl;
 
-    int *p = &a;
-    cout << p << endl;
+    int *p;
+    p = &a;
+    cout << "Pointer Value  = " << p << endl;
 
     return 0;
 }
