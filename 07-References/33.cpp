@@ -12,7 +12,7 @@ void Fuction1(int a)
 }
 
 int main()
-{
+{ 
     int a = 10;
 
     cout << a << endl; // Value In Memore in DEC / Call ByVal.
