@@ -8,7 +8,7 @@ using namespace std;
 
 void Fuction1(int a)
 {
-    a++;
+    a++; 
 }
 
 int main()
