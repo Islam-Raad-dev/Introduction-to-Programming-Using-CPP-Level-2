@@ -16,6 +16,7 @@ int main()
 
     int *p;
     p = &a;
+    
     cout << "Pointer Value  = " << p << endl;
 
     return 0;
