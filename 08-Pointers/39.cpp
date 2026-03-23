@@ -6,28 +6,29 @@ Call By Reference Using Pointers:
 #include <iostream>
 using namespace std;
 
+void Swap(int *n1, int *n2)
+{
+
+    int Temp;
+    Temp = *n1;
+    *n1 = *n2;
+    *n2 = Temp;
+}
+
 int main()
 {
 
-    int a = 10;
+    int a = 1, b = 2;
 
-    cout << "a Value   =  " << a << endl;
-    cout << "a Address =  " << &a << endl;
+    cout << "Before Swapping " << endl;
+    cout << "A = " << a << endl;
+    cout << "B = " << b << endl;
 
-    int *p = &a;
+    Swap(&a, &b);
 
-    cout << "Pointer Value  = " << p << endl;
-    cout << "Pointer Key  = " << *p << endl;
-
-    *p = 20;
-
-    cout << a << endl;
-    cout << *p << endl;
-
-    a = 30;
-
-    cout << a << endl;
-    cout << *p << endl;
+    cout << "After Swapping " << endl;
+    cout << "A = " << a << endl;
+    cout << "B = " << b << endl;
 
     return 0;
 }
