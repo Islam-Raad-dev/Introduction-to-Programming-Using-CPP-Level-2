@@ -2,6 +2,8 @@
 
 Pointer VS References.
 
+Pointer: هو متغير يمكن ان اغيره في اوقت داخل البرنامج
+References: هو دالة فقط و لايمكن ان اغيره ادخل البرنامج فهو ثابث 
 */
 #include <iostream>
 using namespace std;
