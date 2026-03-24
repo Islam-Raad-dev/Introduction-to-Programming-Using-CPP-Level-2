@@ -16,7 +16,7 @@ int main()
 
     for (const int &i : Num)
     {
-        cout << i << endl;
+        cout << i << "  ";
     }
 
     cout << "\nUpdate Vector: ";
