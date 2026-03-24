@@ -35,7 +35,7 @@ int main()
 
     vector<string> vFileContent;
 
-    Load_Data_From_File_To_Vector("My File.txt", vFileContent);
+    Load_Data_From_File_To_Vector("MyFile.txt", vFileContent);
 
     for (string &Line : vFileContent)
     {
