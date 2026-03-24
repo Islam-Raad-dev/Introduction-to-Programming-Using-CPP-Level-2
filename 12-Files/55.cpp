@@ -37,7 +37,7 @@ int main()
 
     Load_Data_From_File_To_Vector("My File.txt", vFileContent);
 
-    for (string Line : vFileContent)
+    for (string &Line : vFileContent)
     {
         cout << Line << endl;
     }
