@@ -49,7 +49,7 @@ int main()
 
     // Remove One Charecter Form The End Of The Sring
 
-    cout << N1.at(3) << endl;
+    cout << N1 << endl;
 
     //_____________________________________________
 
