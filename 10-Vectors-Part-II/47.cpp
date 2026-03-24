@@ -1,6 +1,6 @@
 /*
 
-Vectors Access Element:
+Vectors Change Element:
 
 */
 #include <iostream>
@@ -12,15 +12,32 @@ int main()
 
     vector<int> Num = {1, 2, 3, 4, 5};
 
-    cout << "\nUsing .at(i)\n";
-    cout << "Element at Index 0 : " << Num.at(0) << endl;
-    cout << "Element at Index 2 : " << Num.at(2) << endl;
-    cout << "Element at Index 4 : " << Num.at(4) << endl;
+    cout << "\nInitial Vector: ";
 
-    cout << "\nUsing [i]\n";
-    cout << "Element at Index 0 : " << Num[0] << endl;
-    cout << "Element at Index 0 : " << Num[2] << endl;
-    cout << "Element at Index 0 : " << Num[3] << endl;
+    for (const int &i : Num)
+    {
+        cout << i << endl;
+    }
+
+    cout << "\nUpdate Vector: ";
+
+    for (int &i : Num)
+    {
+
+        i = 20;
+        cout << i << endl;
+    }
+
+    Num[1] = 40;
+    Num[2] = 80;
+    Num.at(3) = 90;
+
+    cout << "\nUpdate Vector: ";
+
+    for (const int &i : Num)
+    {
+        cout << i << "  ";
+    }
 
     return 0;
 }
