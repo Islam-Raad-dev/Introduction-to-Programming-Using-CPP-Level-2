@@ -29,7 +29,7 @@ int main()
     {
 
         i = 20;
-        cout << i << endl;
+        cout << i << "  ";
     }
 
     //_____________________________________________
@@ -39,13 +39,15 @@ int main()
     Num.at(3) = 90;
 
     //_____________________________________________
-    
+
     cout << "\nUpdate Vector: ";
 
     for (const int &i : Num)
     {
         cout << i << "  ";
     }
+
+    cout << endl;
 
     return 0;
 }
